@@ -5,10 +5,10 @@
 
 `Resbaser flow` is git flow that uses `rebase` over remote branches as well. Therefore it leverages:
  - cleaner history over all project branches instead of the remote one you are working on.
- - moving conflict impact from most important brach to least important brach (by utilization approach `most important` branch ,  instead of `most used` branch )
- - use `fail fast` approach to conflict resolution with impact on least important branch 
- - Use `history is written by winner` approach, instead of The Golden Rule of Rebasing reads: “Never rebase while you're on a public branch.” 
- - Make QA and Code freeze phase duration flexible instead of fixed (TBD).
+ - moving conflict impact from most important brach to least important brach (by utilization approach `most important` branch ,  instead of `most used` branch).
+ - use `fail fast` approach to conflict resolution with impact on least important branch.
+ - use `history is written by winner` approach, instead of The Golden Rule of Rebasing reads: “Never rebase while you're on a public branch.”
+ - make QA and Code freeze phase duration flexible instead of fixed (TBD).
 
 # Usage:
 
