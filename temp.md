@@ -81,5 +81,9 @@ gitGraph
     checkout dev
     merge qa tag: "fix rebased"
     commit id: "D"
+    checkout qa
+    merge dev tag: "upq promoted"
+    checkout prod
+    merge qa tag: "upprod promoted"
 ```
 
