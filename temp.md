@@ -12,7 +12,7 @@ gitGraph
     checkout qa
     merge dev
     checkout prod
-    merge dev
+    merge qa
     checkout dev
     commit id: "D"
     checkout qa
@@ -25,6 +25,7 @@ gitGraph
     merge prod tag: "hotfix merge"
     checkout dev
     merge prod tag: "hotfix merge"
+    commit id:" "
     checkout qa
     merge dev
     checkout prod
