@@ -50,3 +50,4 @@ When the ***dev*** or ***qa*** branches are ready to be promoted to "upper" bran
   - `force push` limitation with backup branches
   - `garbage branch collector`
   - timing concept and branch *delays*
+  - dev history and deployment history
