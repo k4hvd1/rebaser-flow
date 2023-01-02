@@ -51,3 +51,4 @@ When the ***dev*** or ***qa*** branches are ready to be promoted to "upper" bran
   - `garbage branch collector`
   - timing concept and branch *delays*
   - dev history and deployment history
+- define final name (double rebase flow VS rebaser flow VS mi flow)
