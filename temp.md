@@ -1,7 +1,5 @@
+# Standard git approach
 ```mermaid
----
-title: Standard git approach
----
 gitGraph
     branch dev
     commit
@@ -36,10 +34,9 @@ gitGraph
 - problem: git history doesn't corresponds to deployment history
 
 
+# Rebaser git approach
+
 ```mermaid
----
-title: Rebaser git approach
----
 gitGraph
     branch dev
     commit
@@ -63,9 +60,6 @@ gitGraph
 ```
 
 ```mermaid
----
-title: Rebaser git approach
----
 gitGraph
     branch dev
     commit
@@ -87,6 +81,5 @@ gitGraph
     checkout dev
     merge qa tag: "fix rebased"
     commit id: "D"
-
 ```
 
