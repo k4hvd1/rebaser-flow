@@ -50,7 +50,7 @@ gitGraph
     checkout qa
     merge dev
     checkout prod
-    merge dev
+    merge qa
     checkout qa
     commit id: "Bfix"
     checkout dev
@@ -73,7 +73,7 @@ gitGraph
     checkout qa
     merge dev
     checkout prod
-    merge dev
+    merge qa
     checkout prod
     commit id: "HOT-A"
     checkout qa
