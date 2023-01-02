@@ -45,7 +45,7 @@ When the ***dev*** or ***qa*** branches are ready to be promoted to "upper" bran
 - delete `backup_DATE` branch (`if you are sure that all conflict are resolved`)
 
 # TBD
-- show diagram `double rebase flow`
+- show diagram [double rebase flow](temp.md)
 - give explanations from TLDR
   - `force push` limitation with backup branches
   - `garbage branch collector`
