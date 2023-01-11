@@ -67,7 +67,7 @@ gitGraph
     merge qa tag: "upprod promoted"
 ```
 
-It produces history with no conflicts, and instead of having sequence ***D, B-fix, A-hotfix*** it produces ***A-hotfix, B-fix, D*** .
+It produces history with no conflicts, and instead of having sequence ***D, B-fix, A-hotfix***, the one that exists form ***developer perspective***, it produces ***A-hotfix, B-fix, D*** which exist from ***deployment perspective***.
 
 History comparison
 |A,B,C,B-fix,A-hotfix|A,A-hotfix,B,B-fix,C|
