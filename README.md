@@ -1,5 +1,6 @@
 # rebaser-flow
 
+If you are using rebases and like its benefits over merge, perhaps you should consider using it on remote branches as well, so let's see how it could be used on remote branches (until rebaser it was highly recommended not to use in public branches) .
 
 # TLDR;
 
