@@ -32,7 +32,7 @@ gitGraph
     merge qa
 ```
 
-- problem: git history doesn't corresponds to deployment history. Sequence D, B-fix, A instead of A, B-fix, D
+- problem: git history doesn't corresponds to deployment history. Sequence ***D, B-fix, A-hotfix*** instead of ***A-hotfix, B-fix, D***
 
 
 # Rebaser git approach
