@@ -20,7 +20,7 @@ gitGraph
     checkout dev
     merge qa tag: "fix merge"
     checkout prod
-    commit id: "HOT-A"
+    commit id: "A-hotfix"
     checkout qa
     merge prod tag: "hotfix merge"
     checkout dev
@@ -57,7 +57,7 @@ gitGraph
     merge qa tag: "fix rebased"
     commit id: "D"
     checkout prod
-    commit id: "HOT-A"
+    commit id: "A-hotfix"
 ```
 
 ```mermaid
@@ -75,7 +75,7 @@ gitGraph
     checkout prod
     merge qa
     checkout prod
-    commit id: "HOT-A"
+    commit id: "A-hotfix"
     checkout qa
     merge prod tag:"hotfix rebased"
     commit id: "B-fix"
