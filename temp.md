@@ -16,7 +16,7 @@ gitGraph
     checkout dev
     commit id: "D"
     checkout qa
-    commit id: "Bfix"
+    commit id: "B-fix"
     checkout dev
     merge qa tag: "fix merge"
     checkout prod
@@ -52,7 +52,7 @@ gitGraph
     checkout prod
     merge qa
     checkout qa
-    commit id: "Bfix"
+    commit id: "B-fix"
     checkout dev
     merge qa tag: "fix rebased"
     commit id: "D"
@@ -78,7 +78,7 @@ gitGraph
     commit id: "HOT-A"
     checkout qa
     merge prod tag:"hotfix rebased"
-    commit id: "Bfix"
+    commit id: "B-fix"
     checkout dev
     merge qa tag: "fix rebased"
     commit id: "D"
