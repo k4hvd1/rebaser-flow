@@ -109,7 +109,7 @@ Therefore it leverages:
 
 
 
-Feel free to reach us, if you like this idea,  don't understand the idea, don't like the idea. We are forming a working group for this kind of flow and would be pleased to help you to use it with your team. If you reach us, please type a role you are having: developer, senior developer, team lead, project manager.
+Feel free to reach us, if you like this idea,  don't understand the idea, don't like the idea. We are forming a working group for this kind of flow and would be pleased to help you to challange it together, explain it or use it with your team or incorporate new ideas. If you reach us, please type a role you are having: developer, senior developer, team lead, project manager.
 
 
 
