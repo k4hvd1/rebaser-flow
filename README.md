@@ -1,9 +1,9 @@
 # rebaser-flow
 
+`Resbaser flow` is git flow that uses `rebase` over remote branches as well.
 
-# TLDR;
+Rebaser flow track project history from ***production perspective*** splitting project history tracking into ***traceable and replaceable tracking***. Therefore it leverages conflict resolution pollution with ***rebasing public branches*** while the code is not in production yet (in replaceable phase), but still in public branches that can be overwritten by ***higher priority branches***. Conflicts are automatically transferred to lower priority branches using a ***fail fast*** approach. Concepts of ***rebase limitation*** and ***following branches*** are implemented via scripting so far.
 
-`Resbaser flow` is git flow that uses `rebase` over remote branches as well. 
 
 Instead of having history like:
 ```mermaid
@@ -114,6 +114,7 @@ Feel free to reach us, if you like this idea,  don't understand the idea, don't 
 
 
 # TBD
+- update all text from docs
 - improve diagram [double rebase flow](temp.md)
 - figure out how to show rebase in diagrams
 - give explanations from TLDR
@@ -122,4 +123,3 @@ Feel free to reach us, if you like this idea,  don't understand the idea, don't 
   - timing concept and branch *delays*
   - dev history and deployment history
 - define final name (double rebase flow VS rebaser flow VS mi flow VS buble flow)
-- use `push --force-with-lease`
