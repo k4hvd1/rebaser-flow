@@ -70,7 +70,7 @@ gitGraph
 It produces history with no conflicts, and instead of having sequence ***D, B-fix, fix-merge, A-hotfix, hotfix merge1, hotfix merge2***, the one that exists form ***developer perspective***, it produces ***A-hotfix, B-fix, D*** which exist from ***deployment perspective***.
 
 History comparison
-|A,B,C,B-fix,A-hotfix|A,A-hotfix,B,B-fix,C|
+|A,B,C,B-fix,B-merge,A-hotfix, hotfix-merge1, hotfix-merge2|A,A-hotfix,B,B-fix,C|
 |-|-|
 |Dev chronological|Deployment chronological|
 | |Functionally logical|
