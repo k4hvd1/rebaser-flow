@@ -79,6 +79,8 @@ History comparison
 
 ## Usage:
 
+Till new git commands are introduced this is a workaround:
+
 - [apply gitscript.sh](./gitscript.sh)
 - set rebase as default pull strategy 
 - Pull replacement (always rebase with all upper branches)
